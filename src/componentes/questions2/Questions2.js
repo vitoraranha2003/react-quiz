@@ -37,7 +37,7 @@ function Questions2(props) {
                     <p>Quem criou o React?</p>
                     <button className="errado" onClick={() => props.setCount(props.count + 1)}>Apple</button>
                     <button className="errado" onClick={() => props.setCount(props.count + 1)}>Amazon</button>
-                    <button className="certo" onClick={incrementValues}>Facebook</button>
+                    <button className="certo" onClick={increaseStage}>Facebook</button>
                     <button className="errado" onClick={() => props.setCount(props.count + 1)}>Google</button>
                 </div>
                 <p className="pontos">Pontos: {props.pont}</p>

@@ -35,10 +35,10 @@ function Questions2(props) {
                 <div className="questions">
                     <p className="range">2/3</p>
                     <p>Quem criou o React?</p>
-                    <button className="errado" onClick={() => props.setCount(props.count + 1)}>Apple</button>
-                    <button className="errado" onClick={() => props.setCount(props.count + 1)}>Amazon</button>
-                    <button className="certo" onClick={increaseStage}>Facebook</button>
-                    <button className="errado" onClick={() => props.setCount(props.count + 1)}>Google</button>
+                    <button className="errado">Apple</button>
+                    <button className="errado">Amazon</button>
+                    <button className="certo">Facebook</button>
+                    <button className="errado">Google</button>
                 </div>
                 <p className="pontos">Pontos: {props.pont}</p>
                 <button className="next" onClick={increaseStage}>Próximo</button>
